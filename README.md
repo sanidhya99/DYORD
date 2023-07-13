@@ -1,4 +1,24 @@
 # DYORD
+
+Project Configuration
+Install required dependencies by running the following commands:
+
+shell
+Copy code
+pip install django-restframework
+pip install djangorestframework_simplejwt
+pip install django-cors-headers
+Set up the Django project and apps by running the necessary migrations. Navigate to the project directory containing the manage.py file and execute the following command:
+
+shell
+Copy code
+python manage.py migrate
+Once the migrations have been applied successfully, start the Django development server:
+
+shell
+Copy code
+python manage.py runserver
+The server should now be running at http://localhost:8000.
 intern task
 This Django project consists of three apps: "register," "info," and "dealing." Each app has its own set of functionalities and permissions. Below is an overview of each app and its components.
 
