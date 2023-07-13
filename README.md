@@ -3,16 +3,15 @@
 Project Configuration
 Install required dependencies by running the following commands:
 
-shell
-Copy code
-pip install django-restframework
-pip install djangorestframework_simplejwt
-pip install django-cors-headers
+
+    pip install django-restframework
+    pip install djangorestframework_simplejwt
+    pip install django-cors-headers
+
 Set up the Django project and apps by running the necessary migrations. Navigate to the project directory containing the manage.py file and execute the following command:
 
-shell
-Copy code
-python manage.py migrate
+    python manage.py makemigrations
+    python manage.py migrate
 Once the migrations have been applied successfully, start the Django development server:
 
 shell
